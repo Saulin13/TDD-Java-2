@@ -24,7 +24,12 @@ public class Calculadora {
 	    }
 
 	public double porcentagem(double valor, double porcentagem) {
-		
+		if (porcentagem < 0 || porcentagem > 100) {
+            System.out.println("A porcentagem deve estar entre 0 e 100.");
+            return 0;
+        }
+        
+        return (valor * porcentagem) / 100.0;
     }
 	    
 	}
