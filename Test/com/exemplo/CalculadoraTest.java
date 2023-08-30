@@ -25,4 +25,8 @@ class CalculadoraTest {
 		   
 	 }
 
+	 @Test
+	 public void testeMulti() {
+		 assertEquals(20, calc.multiplicacao(5, 4)); 
+	 }
 }
