@@ -29,4 +29,9 @@ class CalculadoraTest {
 	 public void testeMulti() {
 		 assertEquals(20, calc.multiplicacao(5, 4)); 
 	 }
+	 
+	 @Test
+	 public void testePorcentagem() {
+		 assertEquals(24, calc.porcentagem(80,30));
+	 }
 }
