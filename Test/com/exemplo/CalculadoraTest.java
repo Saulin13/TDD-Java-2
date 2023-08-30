@@ -19,4 +19,10 @@ class CalculadoraTest {
 		assertEquals(2,calc.subtracao(3, 1)); // estou esperando o resultado 2, de uma funcao de subtracao, onde passo dois parametros (3-1)
 	}
 
+	@Test
+	 public void testeDivisao() {
+		 assertEquals(6, calc.divisao(30, 5)); // estou esperando o resultado 6, de uma funcao de divisao, onde passo dois parametro (30/5)
+		   
+	 }
+
 }
