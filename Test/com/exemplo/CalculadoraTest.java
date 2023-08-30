@@ -24,5 +24,8 @@ class CalculadoraTest {
 		 assertEquals(6, calc.divisao(30, 5)); // estou esperando o resultado 6, de uma funcao de divisao, onde passo dois parametro (30/5)
 		   
 	 }
-
+    @Test
+	 public void testeMulti() {
+		 assertEquals(20, calc.multiplicacao(5, 4)); 
+	 }
 }
