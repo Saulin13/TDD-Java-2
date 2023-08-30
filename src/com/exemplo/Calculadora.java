@@ -23,4 +23,10 @@ public class Calculadora {
 	        return a * b;
 	    }
 
-}
+	public double porcentagem(double valor, double porcentagem) {
+		
+    }
+	    
+	}
+
+

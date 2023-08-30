@@ -34,4 +34,10 @@ class CalculadoraTest {
 	 public void testePorcentagem() {
 		 assertEquals(24, calc.porcentagem(80,30));
 	 }
+	 
+	 @Test
+	 public void testCalcularPorcentagemComPorcentagemInvalida() {
+	 // Teste para porcentagem inválida (> 100)
+	     assertEquals(0,calc.porcentagem(100, 110));
+	 }
 }
