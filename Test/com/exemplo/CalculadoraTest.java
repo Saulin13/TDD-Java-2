@@ -13,5 +13,10 @@ class CalculadoraTest {
 		assertEquals(3, calc.soma(0, 3)); // estou esperando o resultado 3, de uma funcao de soma, onde passo dois paramentros (0+3) 
 		
 	}
+	
+	@Test
+	public void testeSub() {
+		assertEquals(2,calc.subtracao(3, 1)); // estou esperando o resultado 2, de uma funcao de subtracao, onde passo dois parametros (3-1)
+	}
 
 }
