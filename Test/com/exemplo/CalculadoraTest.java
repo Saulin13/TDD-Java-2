@@ -8,9 +8,10 @@ class CalculadoraTest {
 
 	Calculadora calc = new Calculadora();
 	
-	@Test
-	void test() {
-		fail("Not yet implemented");
+	@Test 
+	public void testeSoma() {
+		assertEquals(3, calc.soma(0, 3)); // estou esperando o resultado 3, de uma funcao de soma, onde passo dois paramentros (0+3) 
+		
 	}
 
 }
